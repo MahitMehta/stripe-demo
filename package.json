@@ -1,0 +1,25 @@
+{
+  "name": "stripe-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.0.4",
+    "express": "^4.17.1",
+    "react-stripe-checkout": "^2.6.3",
+    "stripe": "^8.184.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14"
+  }
+}
