@@ -36,6 +36,7 @@ router.post('/donate', async (req, res) => {
         console.log(e);
         return null; 
     });
+    
 
     if (!charge) {
         res.status(500).json({ success: false });
